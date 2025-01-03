@@ -1,1 +1,2 @@
 # ProCNNCL
+ProCNNCL comprises four models, each dedicated to annotating plant abiotic stress resistance genes for drought, salt and alkali, cold, and UV stresses, respectively. Specifically, labeled protein sequences encoded by the target genes are first fed into the pre-trained large protein language model ESM-2 to obtain embeddings. The model and usage of ESM-2 can be found at https://github.com/facebookresearch/esm. Then, the genes are annotated by executing inference.py. The models of ProCNNCL can be downloaded from https://zenodo.org/uploads/14590550.
